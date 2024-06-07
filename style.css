@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #ff4e50, #f9d423, #285AEB);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+.content p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.image img:hover {
+    transform: scale(1.2); 
+}
